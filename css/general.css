@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Heebo&display=swap');
 
 html, body, p, a {
     margin: 0;
@@ -16,16 +17,91 @@ body {
     flex-direction: column;
     color: #212322;
     font-size: 2vw;
-    font-family: 'Roboto';
+    font-family: 'Heebo';
 }
 
 header {
     display: flex;
     align-items: center;
-    height: 15%;
+    height: 8vw;
     background-color: #79D97C;
+    padding: 0.5vw;
+    font-size: 1.5vw;
+    font-style: italic;
+    color: grey;
+    border-bottom: #309B42 0.2vw solid;
+}
+
+header a, #recherche, footer, main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 header img {
-    width: 5vw;
+    width: 7vw;
+    margin-right: 1vw;
+}
+
+#logo {
+    display: flex;
+    align-items: flex-end;
+    width: 27%;
+}
+
+#recherche {
+    width: 70%;
+    justify-content: center;
+}
+
+input[type="text"] {
+    color: grey;
+    width: 40vw;
+    padding: 0.8vw;
+    border: 0.1vw solid #ccc;
+    border-radius: 0.8vw;
+    box-sizing: border-box;
+    resize: vertical;
+    font-size: 0.9vw;
+    font-family: 'Roboto';
+    margin-right: 1.5vw;
+}
+
+button {
+    background-color: #309B42;
+    text-decoration: none;
+    color: white;
+    padding: 0.5vw 1.5vw;
+    border: none;
+    border-radius: 0.8vw;
+    cursor: pointer;
+    font-size: 1.4vw;
+    transition: 300ms;
+}
+
+button:hover {
+    background-color: black;
+}
+
+main div {
+    width: 60%;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+    border-radius: 1vw;
+    padding: 2vw;
+    margin: 2vw 0;
+    background-color: white;
+}
+
+main {
+    background-color: #ADDFB3;
+}
+
+footer {
+    background-color: #79D97C;
+    border-top: #309B42 0.2vw solid;
+    color: grey;
+    padding: 0.5vw;
+    font-size: 1vw;
+    height: 5vw;
+    flex-direction: column;
 }
