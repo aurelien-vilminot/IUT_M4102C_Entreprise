@@ -1,0 +1,12 @@
+@import "general.css";
+
+h1 {
+    color: #FF6D6A;
+    font-family: 'Montserrat';
+    font-size: 1.8vw;
+    margin-bottom: 1.5vw;
+}
+
+img {
+    width: 30vw;
+}

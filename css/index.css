@@ -1,1 +1,44 @@
 @import "general.css";
+
+h1 {
+    color: #FF6D6A;
+    font-family: 'Montserrat';
+    margin-bottom: 1.5vw;
+}
+
+section {
+    width: 100%;
+    text-align: justify;
+}
+
+section div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+section p {
+    font-size: 1.3vw;
+}
+
+section img {
+    width: 160vw;
+    margin-left: 3vw;
+}
+
+section iframe {
+    width: 45vw;
+    height: 20vw;
+    margin-left: 3vw;
+}
+
+section button {
+    width: 65%;
+    margin-top: 1.5vw;
+}
+
+.seprateur {
+    width: 80%;
+    margin: 4vw 0;
+    border-bottom: #F5E27E solid 0.3vw;
+}
