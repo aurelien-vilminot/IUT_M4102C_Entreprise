@@ -12,6 +12,7 @@ section {
 }
 
 section div {
+    width: 65%;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -22,12 +23,12 @@ section p {
 }
 
 section img {
-    width: 160vw;
+    width: 35%;
     margin-left: 3vw;
 }
 
 section iframe {
-    width: 45vw;
+    width: 60%;
     height: 20vw;
     margin-left: 3vw;
 }
